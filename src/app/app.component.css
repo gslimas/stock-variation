@@ -11,6 +11,12 @@
     text-align: center;
 }
 
+.variacao{
+    width: 1000px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+}
 
 .active-route {
     border:2px solid #ded6fb;
@@ -27,13 +33,14 @@
 }
 
 .choose{
-    display: flex;
     flex-direction: column;
     background-color: 	#eeebeb;
     border-radius: 8px;
-    height: 500px;
     align-items: center;
-  justify-content: center;
+    justify-content: center;
+    overflow-y:auto;
+    max-height:800px;
+    min-height:500px;
 }
 
 h1,h2{
