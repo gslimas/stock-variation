@@ -1,0 +1,43 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.navbar {
+    background-color: #f99d30 !important;
+    border-radius: 8px;
+}
+
+.navbar-custom {
+    background-color: #f99d30 !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.align-end {
+    text-align: end;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+
+
+
